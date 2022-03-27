@@ -2,7 +2,6 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  //send static file html file in response
   res.send("Hello World, excited to learn Docker ;) ");
 });
 
